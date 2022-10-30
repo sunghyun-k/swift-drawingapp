@@ -7,6 +7,10 @@
 
 import Foundation
 
-protocol Selectable: AnyObject {
+protocol Selectable {
     func contains(_ point: Point) -> Bool
+}
+
+func a() {
+    Int
 }

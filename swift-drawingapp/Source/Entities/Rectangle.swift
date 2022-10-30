@@ -7,23 +7,21 @@
 
 import Foundation
 
-class Rectangle: Shape, Selectable {
+struct Rectangle: ShapeProtocol, Selectable, StyleApplying {
     
-    private(set) var origin: Point
-    private(set) var size: Size
+    var origin: Point
+    var size: Size
     
-    init(origin: Point, size: Size) {
-        self.origin = origin
-        self.size = size
-        
-        super.init()
-        
-        points = makePoints(origin: origin, size: size)
+    var points: [Point] {
+        return makePoints(origin: origin, size: size)
     }
+    
+    var fillColor: Color?
+    var lineColor: Color?
     
     func contains(_ point: Point) -> Bool {
         return origin.x...origin.x+size.width ~= point.x &&
-        origin.y...origin.y+size.height ~= point.y
+               origin.y...origin.y+size.height ~= point.y
     }
     
     private func makePoints(origin: Point, size: Size) -> [Point] {
@@ -39,9 +37,4 @@ class Rectangle: Shape, Selectable {
         points.append(origin)
         return points
     }
-}
-
-class StyledRectangle: Rectangle, StyleApplying {
-    var color: Color?
-    var lineColor: Color?
 }

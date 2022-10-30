@@ -16,12 +16,13 @@
 		83A846F828725EFF00C777B1 /* swift_drawingappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A846F728725EFF00C777B1 /* swift_drawingappTests.swift */; };
 		83A8470228725EFF00C777B1 /* swift_drawingappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8470128725EFF00C777B1 /* swift_drawingappUITests.swift */; };
 		83A8470428725EFF00C777B1 /* swift_drawingappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8470328725EFF00C777B1 /* swift_drawingappUITestsLaunchTests.swift */; };
-		F2AEE0B928FB04C60068B9E9 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AEE0B828FB04C60068B9E9 /* Rectangle.swift */; };
+		F20285FB290EAB4400DF6BA5 /* AnyAsyncSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20285FA290EAB4400DF6BA5 /* AnyAsyncSequence.swift */; };
+		F20285FC290EAC3200DF6BA5 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AEE0B828FB04C60068B9E9 /* Rectangle.swift */; };
 		F2AEE0BB28FB05C40068B9E9 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AEE0BA28FB05C30068B9E9 /* Point.swift */; };
 		F2AEE0BD28FB05F40068B9E9 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AEE0BC28FB05F40068B9E9 /* Size.swift */; };
 		F2AEE0BF28FB066C0068B9E9 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AEE0BE28FB066C0068B9E9 /* Canvas.swift */; };
 		F2AEE0C128FB07C10068B9E9 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AEE0C028FB07C10068B9E9 /* Shape.swift */; };
-		F2AEE0C428FB0B780068B9E9 /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AEE0C328FB0B780068B9E9 /* Drawing.swift */; };
+		F2AEE0C428FB0B780068B9E9 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AEE0C328FB0B780068B9E9 /* Path.swift */; };
 		F2AEE0C728FB0E530068B9E9 /* StyleApplying.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AEE0C628FB0E530068B9E9 /* StyleApplying.swift */; };
 		F2AEE0C928FB0E7B0068B9E9 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AEE0C828FB0E7B0068B9E9 /* Color.swift */; };
 		F2B5F93428FBBF1300D5BE2F /* Selectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B5F93328FBBF1300D5BE2F /* Selectable.swift */; };
@@ -59,12 +60,13 @@
 		83A846FD28725EFF00C777B1 /* swift-drawingappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-drawingappUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A8470128725EFF00C777B1 /* swift_drawingappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_drawingappUITests.swift; sourceTree = "<group>"; };
 		83A8470328725EFF00C777B1 /* swift_drawingappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_drawingappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F20285FA290EAB4400DF6BA5 /* AnyAsyncSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyAsyncSequence.swift; sourceTree = "<group>"; };
 		F2AEE0B828FB04C60068B9E9 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
 		F2AEE0BA28FB05C30068B9E9 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		F2AEE0BC28FB05F40068B9E9 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
 		F2AEE0BE28FB066C0068B9E9 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
 		F2AEE0C028FB07C10068B9E9 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
-		F2AEE0C328FB0B780068B9E9 /* Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
+		F2AEE0C328FB0B780068B9E9 /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 		F2AEE0C628FB0E530068B9E9 /* StyleApplying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleApplying.swift; sourceTree = "<group>"; };
 		F2AEE0C828FB0E7B0068B9E9 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		F2B5F93328FBBF1300D5BE2F /* Selectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selectable.swift; sourceTree = "<group>"; };
@@ -148,16 +150,25 @@
 			path = "swift-drawingappUITests";
 			sourceTree = "<group>";
 		};
+		F20285FD290EAC6000DF6BA5 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F2AEE0C028FB07C10068B9E9 /* Shape.swift */,
+				F2AEE0B828FB04C60068B9E9 /* Rectangle.swift */,
+				F2AEE0C328FB0B780068B9E9 /* Path.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		F2AEE0C228FB0B3C0068B9E9 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				F2B5F93528FBCD2800D5BE2F /* DrawingApp.swift */,
 				F2AEE0BE28FB066C0068B9E9 /* Canvas.swift */,
-				F2AEE0C028FB07C10068B9E9 /* Shape.swift */,
+				F20285FD290EAC6000DF6BA5 /* Entities */,
 				F2B5F93328FBBF1300D5BE2F /* Selectable.swift */,
 				F2AEE0C628FB0E530068B9E9 /* StyleApplying.swift */,
-				F2AEE0B828FB04C60068B9E9 /* Rectangle.swift */,
-				F2AEE0C328FB0B780068B9E9 /* Drawing.swift */,
+				F20285FA290EAB4400DF6BA5 /* AnyAsyncSequence.swift */,
 				F2AEE0C528FB0D650068B9E9 /* Structures */,
 			);
 			path = Source;
@@ -313,10 +324,11 @@
 				F2B5F93628FBCD2800D5BE2F /* DrawingApp.swift in Sources */,
 				83A846E128725EFA00C777B1 /* AppDelegate.swift in Sources */,
 				83A846E328725EFA00C777B1 /* SceneDelegate.swift in Sources */,
+				F20285FB290EAB4400DF6BA5 /* AnyAsyncSequence.swift in Sources */,
 				F2AEE0BD28FB05F40068B9E9 /* Size.swift in Sources */,
-				F2AEE0C428FB0B780068B9E9 /* Drawing.swift in Sources */,
-				F2AEE0B928FB04C60068B9E9 /* Rectangle.swift in Sources */,
+				F2AEE0C428FB0B780068B9E9 /* Path.swift in Sources */,
 				F2AEE0C128FB07C10068B9E9 /* Shape.swift in Sources */,
+				F20285FC290EAC3200DF6BA5 /* Rectangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
